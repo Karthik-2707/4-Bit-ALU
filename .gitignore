@@ -1,0 +1,27 @@
+# Exclude common Verilog simulation artifacts and IDE-specific files
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Simulation outputs
+*.vcd
+*.fsdb
+*.fsta
+*.json
+*.xsimulation
+
+# Generated files
+*.syn
+*.sdf
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.orig
+*.DS_Store
